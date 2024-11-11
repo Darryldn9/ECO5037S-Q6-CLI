@@ -262,10 +262,6 @@ def main():
     print(f"ALGO: {pool.algo_amount}")
     print(f"UCTZAR: {pool.uctzar_amount}")
     print(f"LP tokens: {pool.lp_tokens}")
-
-    print(
-        "\nNote: This is a simplified simulation. In a real-world implementation, additional smart contract logic would be required for token issuance, liquidity provision, and withdrawals.")
-
-
 if __name__ == "__main__":
     main()
+
